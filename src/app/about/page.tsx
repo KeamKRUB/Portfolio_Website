@@ -38,12 +38,9 @@ const About = () => {
         {/*Content*/}
         <div className="h-full overflow-scroll overflow-x-hidden lg:flex">
             {/*Describe*/}
-            <div className="flex flex-col p-4 sm:p-8 md:p-12 lg:p-20 xl:p-40 gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2 xl:1/2">
+            <div className="flex flex-col p-4 sm:p-8 md:p-12 lg:p-20 xl:p-40 gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
                 {/*BIO*/}
                 <motion.div 
-                initial={{x:"-300px", opacity:0}} 
-                animate={isProfileInView ? {x:0,opacity:1}:{}}
-                transition={{delay:0.2,duration:0.5}} 
                 className="flex flex-col gap-12 justify-center" ref={profileRef}>
                     <h1 className="font-bold text-2xl">
                         My Profile
