@@ -10,7 +10,7 @@ const links = [
     {url: "/", title:"Home"},
     {url: "/portfolio", title:"Portfolio"},
     {url: "/about", title:"About"},
-    {url: "/test", title:"Test"}
+    {url: "https://www.facebook.com/profile.php?id=100005002366932", title:"Contact"}
 ]
 
 const Navbar = () => {

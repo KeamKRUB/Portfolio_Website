@@ -24,6 +24,7 @@ export default function Home() {
           <button onClick={() => {location.href='https://www.facebook.com/profile.php?id=100005002366932';}} className="p-4 rounded-lg ring-1 ring-black">
             Contact Me
           </button>
+          
         </div>
       </div>
     </div>
